@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleintro.css">
+    <script src="./intro.js"></script>
+
+    <script src="./react17.js"></script>
+
+    <style>
+        .one{
+            color: blueviolet;
+             
+        }
+    </style>
+</head>
+<body>
+  
+    <!-- div.class -->
+    <div class="class"></div>
+
+
+    <!-- div.class*5 -->
+    <div class="class"></div>
+    <div class="class"></div>
+    <div class="class"></div>
+    <div class="">External css</div>
+    <div class="" style="color: blue;"> </div>
+
+
+   <!-- div.class>div.class -->
+    <div class="class">
+        <div class="" > css</div>
+    </div>
+    <div class="two" style="color: blue;">inline css</div>
+    <div class="one" >Internal css</div>
+    <div class="three">External css</div>
+</body>
+
+
+
+<script>
+    // console.log("learning internal javascript");
+
+    // {
+    //     var c =10;
+    //     console.log(c);
+
+
+    //     let a= 30;
+    //     console.log(a);
+    // }
+    // // console.log(a);
+
+
+
+
+    // console.log(c);
+   
+
+
+
+
+
+    // console.log(d);
+    // var d=36;
+
+
+
+
+
+
+
+
+
+
+    // console.log(w);
+    // let w=35;
+
+    // let r= 88;
+    // console.log(r);
+
+
+
+
+
+
+
+
+
+
+    // constant
+
+    // const a =10;
+    // console.log(a);
+
+// error because const should be inatialised during declaration
+    // const q;   
+    // const q=20;
+
+
+
+
+
+
+
+
+
+
+
+    // const myarray={
+    //     name:"Shubham",
+    // };
+
+
+    //  myarray.name = "Shripad";
+
+    //  console.log(myarray);
+
+
+
+
+
+
+
+
+
+
+
+    //    Error becausemyarray should not be re inatialised ...but name inside it can be 
+    //  myarray={
+    //      name = "Balram",
+    //  }
+
+    //  console.log(myarray);
+
+
+
+
+
+    
+    
+
+// let myString1 ="SalunkheShubham";
+// let mystring2 = "salunkheshubham";
+
+
+
+
+
+
+// // console.log(myString1.toUpperCase()==myString2.toUpperCase());    error because of == matches onlyvalue
+
+// // console.log(myString1.toUpperCase()===myString2.toUpperCase()); 
+
+
+
+
+// // let input = "abcdafgbdjc"
+// // let output="";
+// // Array=['a','b','c','d','a','f','g','b','d','j','c'];
+
+// // // console.log(St(1));
+
+// // // Hashset h =new Hashset();
+// // //  for (i=0, i<St.length,i++){
+
+// // //     h.add(i)
+// // //  }
+
+
+
+// // for(i=0;i<=input.length;i++) {
+
+// //     let count = 0;
+// //     for(j=0;j<=input.length;j++){
+// //        if(input[i]===input[j] && i<=j){
+// //            count++;
+// //            if(count>1){
+
+// //             output = output+ input[i];
+// //             break;
+// //            }
+// //        }
+// //     }
+
+// //     console.log(output);
+
+// // }
+
+// // let isSame =true;
+
+// // let myArr =[1,2,3,4];
+// // let myArr1 =[1,2,3,4];
+// // for(let i=0;i<myArr.length; i++){
+// //     if(myArr[i] !== myArr1[i]){
+// //         isSame=false;
+// //         break;
+// //     }
+// // console.log(isSame);
+
+// // }
+
+
+
+
+
+
+//  let input =("India is my country");
+
+
+// output="";
+// let wordString = "";
+
+
+// function reverseString(value){
+//     let returnValue="";
+//     for (let i=value.length-1;i>-1;i--){
+//         returnValue =returnValue+value[i];
+
+//     }
+//     return returnValue;
+// }
+
+// for(let i=0;i<input.length; i++){
+//     if (input[i]===" "){
+//         output=output+ reverseString(wordString)+" ";
+//         console.log(wordString);
+//         wordString="";
+//     }
+//     else{
+//     wordString =wordString + input[i];
+//     if
+//         (i+1 == input.length){
+//             output=output+ reverseString(wordString);
+//             console.log(wordString);
+//             wordString ="";
+//     }
+//     }
+
+
+
+// }
+
+// console.log(output);
+
+
+
+// // normal function
+// function addNumber(no1,no2){
+//     return no1+no2;
+// }
+// console.log(addNumber);
+// console.log(addNumber(10,60));
+
+
+// --------------------------------------------------------------------
+
+
+
+//Function Expression
+
+// const add= function (no1,no2){
+//     return no1+ no2;
+// }
+// console.log(add(10,80));
+// console.log(add);
+
+
+
+// -----------------------------------------------------------------------
+
+
+
+
+// //Arrow function
+
+// const addArrow =(no1,no2)=>{
+//     return no1+no2;
+// }
+// console.log(add(10,5));
+//  console.log(add);     // we will get function defination
+
+// ------------------------------------------------------------------------
+    
+
+// const obj ={
+// name :"Shubham",
+// getName: function () {
+//     return this.name;
+    
+// },
+// };
+
+
+// const newObj = {
+//     name:"Shripad",
+// };
+// const bindObj=obj.getName.bind(newObj);
+// console.log(obj.getName.bind(newObj));
+
+
+
+//-------------------------------------------------------------------------
+
+
+//Constructor function
+
+
+
+// function Person(name , Age){
+//     if (!new.target){
+//         return new Person(name,Age)
+//     }
+//     this.name;
+//     this.Age;
+//     //return this(inbuilt if we call it by new key word)
+// }
+// const cons= new Person("Shubham",23);
+// const cons1= Person("Shubham",23);
+
+// console.log(cons);
+// console.log(cons1);
+
+
+
+//-------------------------------------------------------------------------
+
+//   const myArr=[1,2,3,4];
+
+//   const [a,b,c,d]= myArr;
+//   console.log(a,b,c,d);
+
+
+//   const myObj={
+//       name:"Pradeep",
+//       Age : 23
+//   };
+
+//   const{name,Age}=myObj;
+//   console.log(name,age);
+
+
+
+//   const Arr = [1,2,3,4,5,6];
+//   const NewArr=[];
+//   for(i=0;i<=length.Arr;i++){
+//       NewArr.push(Arr[i])
+//   }
+
+//   console.log(NewArr);
+
+  // Shortcut method Deep copy  {Spread in array}
+
+//   const NewArr =[...Arr];
+
+
+
+//   console.log(NewArr);
+
+// // Spread with object
+//   const MyObj={
+//       name :"Shubham",
+//       Age :"19"
+//   }
+
+//   const MyNewObj={...MyObj};
+
+//   console.log(MyNewObj);
+
+//   console.log(...MyObj); error store it in array
+
+
+
+//Rest
+
+// function Add(a,b,c,d){
+//     return a+b+c+d ;
+// }
+
+// console.log(Add(10,20,30,40));
+//if user needs to add value then we have to make changes to function
+//sonot to restrict the userwe do
+
+// function add(...args){
+//     for(let i=0;i<=args;i++){
+//         result=result+ args[i];
+
+        
+//     }
+//     return result;
+    
+// }
+// console.log(add(10,20,30));
+
+</script>
+
+</html>

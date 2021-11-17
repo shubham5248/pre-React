@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //normal function
+    function Shubham(bonus, Sal) {
+    return bonus+Sal;
+    } 
+console.log(Shubham(12000,5222));
+
+
+// Function Expression
+
+const multiply = function(no1,no2){
+    return no1*no2;
+}
+
+console.log(multiply(12,13));
+    const a = multiply(12,13)
+console.log(a);
+
+//Array Function
+
+const multiply1 =(no1,no2)=>{
+    return no1*no2;
+}
+  
+  console.log(multiply1(5,10));
+
+  //----------------------------------------------------------
+// iterating through array
+  const myArr =[1,2,3,4,5,6];
+
+  const [t,b,c,d,e,f] = myArr;
+
+  console.log(t,b,c,d,e,f);
+
+
+
+  //----------------------------------------------------------
+
+  //constructor function
+
+const myObj = new Employee("Shubham", 14000)
+
+function Employee(name,sal){
+    this.name
+    this.sal
+}
+console.log(myObj);
+
+const myObj1 = Employee("Balram", 14000)
+
+function Employee(name,sal){
+    if(!new.target){
+        return new Employee("Balram",14000)
+    }
+    this.name
+    this.sal
+}
+console.log(myObj1);
+
+//--------------------------------------------------------------Iterating through Array
+
+
+
+const MyObj ={
+    name:"Shubham",
+    sal:14000
+
+};
+
+
+const {name,sal} =MyObj;
+
+console.log(name,sal);
+
+
+
+</script>
+</html>
