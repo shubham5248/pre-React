@@ -1,17 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import ListComponent from './ListComponent';
-import FormComponent from './FormComponent';
-import PersonInfo from './PersonInfo';
-
+import Navbar from './Navbar';
+import Header from './Header';
+import Footer from './Footer';
+import Body from './Body';
 function App() {
-  return (<>
-  <PersonInfo/>
-  {/* <FormComponent/> */}
-{/* 
-  <ListComponent/> */}
-  </>
-
+  return (
+    <div className="App">
+     <Header/>
+     <Navbar/>
+     <Body/>
+     <Footer/>
+    
+    </div>
   );
 }
 
