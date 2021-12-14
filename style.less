@@ -1,0 +1,23 @@
+@background-color : green;
+@primary : yellow;
+@secondary : blue;
+
+body{
+    background-color:@background-color;
+ 
+}
+.button{
+    padding: 10px;
+    color: white;
+    background-color: gray;
+}
+.primary-button:extend(.button){
+    background-color: @primary;
+}
+.base-button:extend(.button){
+    background-color: #color[primary];
+}
+#color(){
+    primary :blue;
+    secondary : orange;
+}

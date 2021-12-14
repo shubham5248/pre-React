@@ -1,0 +1,16 @@
+body {
+  background-color: green;
+}
+.button,
+.primary-button,
+.base-button {
+  padding: 10px;
+  color: white;
+  background-color: gray;
+}
+.primary-button {
+  background-color: yellow;
+}
+.base-button {
+  background-color: blue;
+}

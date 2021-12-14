@@ -1,0 +1,35 @@
+body {
+  background-color: #f0b8b8;
+}
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.footer {
+  background-color: yellow;
+  height: 40px;
+  border-radius: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+.text2 {
+  background-color: red;
+}
+.text3 {
+  background-color: orange;
+}
+.text4 {
+  background-color: #da7979;
+}
+.text5 {
+  background-color: #534b4b;
+}
+.text6 {
+  background-color: #a04d95;
+}
+.footer {
+  background-color: gray;
+  height: 300px;
+}

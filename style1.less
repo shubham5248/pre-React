@@ -1,0 +1,54 @@
+@background-color:rgb(240, 184, 184);
+@text1-color:yellow;
+@text2-color:red;
+@text3-color:orange;
+@text4-color:rgb(218, 121, 121);
+@text5-color:rgb(83, 75, 75);
+@text6-color:rgb(177, 168, 168);
+
+
+
+
+
+body{
+    background-color: @background-color;  
+    
+}
+.text1{
+    background-color: @text1-color;
+    height: 40px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.text2:extend(.text1){
+    background-color: @text2-color;
+}
+.text3:extend(.text1){
+    background-color: @text3-color;
+}
+.text4:extend(.text1){
+    background-color: @text4-color;
+}
+.text5:extend(.text1){
+    background-color: @text5-color;
+}
+.text6:extend(.text1){
+    background-color: #color[text6-color];
+}
+.footer:extend(.text1){
+    background-color: #color[footer-color];
+    height: 300px;
+      
+    
+}
+
+#color(){
+    text1-color:yellow;
+    text2-color:red;
+    text3-color:orange;
+    text4-color:rgb(218, 121, 121);
+    text5-color:rgb(83, 75, 75);
+    text6-color:rgb(160, 77, 149); 
+    footer-color:gray;
+}
